@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .customl{
+            width: 700px;
+            margin: 0px auto;
+        }
+    </style>
+  </head>
+  <body>
+   
+    <div class="customl mt-5">
+        <div class="row">
+            <div class="col">
+                <label for="" class="mb-1">Number 1</label>
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+                <label for="" class="mb-1">Operator</label>
+                <select name="" id="" class="form-select" aria-label="Dafault select example">
+                <option value="">+</option>
+                <option value="">-</option>
+                <option value="">*</option>
+                <option value="">/</option>
+                </select>   
+            </div>
+            <div class="col">
+                <label for="" class="mb-1">Number 2</label>
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary mt-3">Submit</button>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                  </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+                <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+            </div>
+          </div>
+
+    </div>
+
+
+    <script>
+
+      const n1 = 4;
+      const n2 = 5;
+
+      const result = add (n1,n2);
+
+      const x = 10;
+      const y = 20;
+
+      cons result2 = add(x,y);
+
+      function add(a,b){
+        return a+b;
+      }
+
+      function add(a,b){
+        return a-b;
+      }
+
+      function add(a,b){
+        return a*b;
+      }
+
+      function add(a,b){
+        return a/b;
+      }
+
+      console.log(result2);
+
+    </script>
+    
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
